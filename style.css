@@ -145,8 +145,8 @@ img{
     max-width: 100%;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {margin: 30px 0; color:var(--White) ;font-size: 11px; text-align: center; }
+.attribution a { color: var(--White); }
   
 
 @media (max-width:900px) {
@@ -160,6 +160,7 @@ img{
         width: 100%;
         border-radius: 0;
         min-height: 100vh;
+        justify-content: flex-end;
     }
 
     h1{
